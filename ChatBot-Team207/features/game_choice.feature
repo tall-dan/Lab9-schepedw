@@ -13,4 +13,8 @@ Then the output should contain "3) Mario Kart 64"
 Then the output should contain "4) Super Smash Brothers"
 Then the output should contain "5) Global Thermonuclear War"
 
+Scenario: User picks global thermonuclear war
+Given the application is running
+Given I type "5"
+Then the output should contain "BOOM!"
 
