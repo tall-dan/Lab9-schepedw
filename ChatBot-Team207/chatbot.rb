@@ -17,7 +17,7 @@ selection =gets.chomp
 if selection == "5"
 	puts "BOOM!"
 else 
-	#puts "I refuse to play"
+	puts "I refuse to play"
 end
 
 	
