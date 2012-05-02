@@ -20,3 +20,8 @@ When I type ""
 When I type "5"
 Then the output should contain "BOOM!"
 
+Scenario: User does not pick global thermonuclear was
+Given the application is running
+When I type ""
+When I type ""
+Then the output should contain "I refuse to play"
